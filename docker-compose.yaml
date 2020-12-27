@@ -1,0 +1,43 @@
+version: "3"
+
+services:
+
+  exo:
+    build: .
+#     volumes:
+#       - ./database:/app
+#     environment:
+#       IAMAVARIABLE: VAR
+#     ports: 
+#       - 8000:8000
+#     networks:
+#       - ivado
+
+#   extractor:
+#     build: ./extractor
+#     volumes:
+#       - ./extractor:/app
+#     networks:
+#       - ivado
+
+#   ml:
+#     build: ./ml
+#     ports:
+#       - 8001:8000
+#     volumes:
+#       - ./ml:/app
+#     networks:
+#       - ivado
+
+#   streamlit:
+#     build: ./streamlit
+#     ports:
+#       - 8501:8501
+#     volumes:
+#       - ./streamlit:/app
+#     networks:
+#       - ivado
+  
+# networks:
+#   ivado:
+#     driver: bridge
